@@ -10,4 +10,16 @@
 
 @interface RVViewController : UIViewController
 
+
+
+- (IBAction)generateButtonPressed:(UIButton *)sender;
+- (IBAction)resetButton:(UIButton *)sender;
+
+
+@property (strong, nonatomic) IBOutlet UILabel *randomNumberLabel;
+@property (strong, nonatomic) IBOutlet UILabel *randomNumberLabelTwo;
+
+
+@property (strong, nonatomic) IBOutlet UILabel *greaterThanSymbol;
+
 @end
